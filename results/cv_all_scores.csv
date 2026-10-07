@@ -1,0 +1,116 @@
+model,parameters,fold,n_validation,RMSE
+Mean baseline,{},0,112,0.05918645227496292
+Mean baseline,{},1,112,0.039845928023127794
+Mean baseline,{},2,112,0.054633597333550464
+Mean baseline,{},3,112,0.04982549532418307
+Mean baseline,{},4,112,0.061176286771070884
+Tissue-only ridge,"{""alpha"": 0.1}",0,112,0.0569751349525783
+Tissue-only ridge,"{""alpha"": 0.1}",1,112,0.03916516135600074
+Tissue-only ridge,"{""alpha"": 0.1}",2,112,0.05308534507428452
+Tissue-only ridge,"{""alpha"": 0.1}",3,112,0.04538806867466413
+Tissue-only ridge,"{""alpha"": 0.1}",4,112,0.058689014937056055
+Tissue-only ridge,"{""alpha"": 1}",0,112,0.05687076841995972
+Tissue-only ridge,"{""alpha"": 1}",1,112,0.03882741563442617
+Tissue-only ridge,"{""alpha"": 1}",2,112,0.05293733549812774
+Tissue-only ridge,"{""alpha"": 1}",3,112,0.045290830685339185
+Tissue-only ridge,"{""alpha"": 1}",4,112,0.058634801981642864
+Tissue-only ridge,"{""alpha"": 10}",0,112,0.056938300490063834
+Tissue-only ridge,"{""alpha"": 10}",1,112,0.03766787001168359
+Tissue-only ridge,"{""alpha"": 10}",2,112,0.052579312474395706
+Tissue-only ridge,"{""alpha"": 10}",3,112,0.04549770170864323
+Tissue-only ridge,"{""alpha"": 10}",4,112,0.05878905755226509
+Tissue-only ridge,"{""alpha"": 100}",0,112,0.05830671572542425
+Tissue-only ridge,"{""alpha"": 100}",1,112,0.038452601087873864
+Tissue-only ridge,"{""alpha"": 100}",2,112,0.0535324754574045
+Tissue-only ridge,"{""alpha"": 100}",3,112,0.048031947479828425
+Tissue-only ridge,"{""alpha"": 100}",4,112,0.06013289405329118
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.1}",0,112,0.06376529604217146
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.1}",1,112,0.05242362969997734
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.1}",2,112,0.05836291339487453
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.1}",3,112,0.057762242153755486
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.1}",4,112,0.06088427161290794
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.5}",0,112,0.05396672132717102
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.5}",1,112,0.04040285766649193
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.5}",2,112,0.05208802905692069
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.5}",3,112,0.04354042336421789
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.5}",4,112,0.05605732891200675
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.9}",0,112,0.05193376756659097
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.9}",1,112,0.037378441890656915
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.9}",2,112,0.05065062657050492
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.9}",3,112,0.04120834907461751
+Elastic Net,"{""alpha"": 0.003, ""l1_ratio"": 0.9}",4,112,0.0546607002084867
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.1}",0,112,0.05534579726694343
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.1}",1,112,0.0432170790718788
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.1}",2,112,0.053799456912604536
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.1}",3,112,0.04819122527949344
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.1}",4,112,0.05597221302881394
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.5}",0,112,0.052513997625746635
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.5}",1,112,0.03646985954071811
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.5}",2,112,0.0510389320706267
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.5}",3,112,0.041461987757502185
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.5}",4,112,0.05547178373102727
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.9}",0,112,0.05395754280747892
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.9}",1,112,0.036445321993524196
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.9}",2,112,0.0514523993016666
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.9}",3,112,0.043176820546753335
+Elastic Net,"{""alpha"": 0.01, ""l1_ratio"": 0.9}",4,112,0.05691214037640207
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.1}",0,112,0.05181926377688614
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.1}",1,112,0.03681258711781461
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.1}",2,112,0.05059867217466753
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.1}",3,112,0.04110904741007752
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.1}",4,112,0.05470717454183028
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.5}",0,112,0.056198154220722475
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.5}",1,112,0.03715791474456186
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.5}",2,112,0.05271054878773019
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.5}",3,112,0.04615266455053754
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.5}",4,112,0.05890073653934511
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.9}",0,112,0.05918645227496292
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.9}",1,112,0.039845928023127794
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.9}",2,112,0.054633597333550464
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.9}",3,112,0.04982549532418307
+Elastic Net,"{""alpha"": 0.03, ""l1_ratio"": 0.9}",4,112,0.061176286771070884
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.1}",0,112,0.05431137273747705
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.1}",1,112,0.03652202243535927
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.1}",2,112,0.05153871678472215
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.1}",3,112,0.04372262072260893
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.1}",4,112,0.05722867287968902
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.5}",0,112,0.05918645227496292
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.5}",1,112,0.039845928023127794
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.5}",2,112,0.054633597333550464
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.5}",3,112,0.04982549532418307
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.5}",4,112,0.061176286771070884
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.9}",0,112,0.05918645227496292
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.9}",1,112,0.039845928023127794
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.9}",2,112,0.054633597333550464
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.9}",3,112,0.04982549532418307
+Elastic Net,"{""alpha"": 0.1, ""l1_ratio"": 0.9}",4,112,0.061176286771070884
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 2}",0,112,0.0522550954378159
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 2}",1,112,0.03768064410579761
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 2}",2,112,0.05037749230905586
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 2}",3,112,0.04166974709299088
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 2}",4,112,0.055881441412493064
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 5}",0,112,0.0527420568176464
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 5}",1,112,0.03665189448513585
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 5}",2,112,0.05031038154056987
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 5}",3,112,0.041763561314643566
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 5}",4,112,0.05504199682883979
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 10}",0,112,0.05266835947794254
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 10}",1,112,0.03688481182837672
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 10}",2,112,0.05076323002665833
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 10}",3,112,0.041209839829008374
+Random Forest,"{""max_features"": 0.1, ""min_samples_leaf"": 10}",4,112,0.05584265997553377
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 2}",0,112,0.05236250619891656
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 2}",1,112,0.036822017404136105
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 2}",2,112,0.04868637053383067
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 2}",3,112,0.04188014064724063
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 2}",4,112,0.05513775673168947
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 5}",0,112,0.052580403820731765
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 5}",1,112,0.036072639930771803
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 5}",2,112,0.04941265120144425
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 5}",3,112,0.040976272456317304
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 5}",4,112,0.05433279594526482
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 10}",0,112,0.051753705280707336
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 10}",1,112,0.03669669494201585
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 10}",2,112,0.05000442739472408
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 10}",3,112,0.0407002490050131
+Random Forest,"{""max_features"": 0.5, ""min_samples_leaf"": 10}",4,112,0.05461582964145206

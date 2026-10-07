@@ -1,0 +1,5 @@
+model,CV_RMSE,CV_fold_SD,parameters
+Mean baseline,0.052933551945379034,0.008527565745144822,{}
+Tissue-only ridge,0.05029444844741029,0.008717210271930415,"{""alpha"": 10}"
+Elastic Net,0.04700934900425522,0.007649551470831449,"{""alpha"": 0.03, ""l1_ratio"": 0.1}"
+Random Forest,0.04667495267090599,0.007840534129915654,"{""max_features"": 0.5, ""min_samples_leaf"": 5}"

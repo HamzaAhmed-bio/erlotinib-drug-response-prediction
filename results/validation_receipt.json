@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checks": [
+    "All four downloaded source SHA-256 hashes match the receipt",
+    "Unique model identities; one assay window; test and CV group disjointness",
+    "100 sampled expression values independently match log2(source FPKM+1)",
+    "Every reported RMSE, MAE, R2 independently recomputed; all saved model predictions reproduced",
+    "Feature selection, imputation, standardization and mean baseline match development-only statistics",
+    "Primary-model choice matches development CV; frozen split hashes reconcile",
+    "All bootstrap intervals and paired comparisons match saved replicates",
+    "Cohort counts reconcile to the source eligibility audit"
+  ],
+  "limits": [
+    "Expression source spot-check covers 100 values, not every cell",
+    "No external or clinical validation",
+    "Conditional bootstrap excludes training and model-selection uncertainty"
+  ],
+  "code_sha256": {
+    "01_download.py": "1378d96dbc0e0fdf8bb85d4fc8fcb2b514edc0a3842043763675669fca4b8138",
+    "02_prepare.py": "75e9ae9ec538feefbd096bde4510745c0782e89e2e96e683ace2d6847c2901a0",
+    "03_model.py": "ce11f08bc709d07099042e6500e8423ee02e7528f79fcd0843108e811ab73efc",
+    "04_validate.py": "24d36ee5c3a6c9ac672d00bbde4a945ff2a33516ea51149c4580e2d8f79bd01f",
+    "05_notebook.py": "1e3f6f227646830330e399e2388bf16af2facf6c5e4c685b2c241ebee575d70e",
+    "06_environment.py": "d8a72ed2745173715b5c3ab5dcaede23dafd1db3202322bf547f7cb158c4eb35",
+    "modeling.py": "fb4716dbe6dd52094d54734af9b2845cdff54ed52987a06f820f84efc05c3147"
+  }
+}

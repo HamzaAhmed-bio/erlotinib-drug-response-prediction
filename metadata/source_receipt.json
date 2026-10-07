@@ -1,0 +1,33 @@
+{
+  "retrieved_utc": "2026-10-06T05:38:53.317625+00:00",
+  "files": [
+    {
+      "file": "GDSC2_fitted_dose_response_27Oct23.xlsx",
+      "url": "https://cog.sanger.ac.uk/cancerrxgene/GDSC_release8.5/GDSC2_fitted_dose_response_27Oct23.xlsx",
+      "bytes": 21330376,
+      "sha256": "f950a7027be265f8a7a74220a27fd18cbd368485349bd8c2048e88bb1cd07560"
+    },
+    {
+      "file": "model_list_20241120.csv",
+      "url": "https://cog.sanger.ac.uk/cmp/download/model_list_20241120.csv",
+      "bytes": 925294,
+      "sha256": "90ad172809662d0cbffdce9795ee6bec7659895ae3899b053d3122e803c16d5e"
+    },
+    {
+      "file": "GDSC_Fitted_Data_Description.pdf",
+      "url": "https://cog.sanger.ac.uk/cancerrxgene/GDSC_release8.5/GDSC_Fitted_Data_Description.pdf",
+      "bytes": 79968,
+      "sha256": "734854184e903c0f7ba59f5127bb037ab352bb486da34262e967c66fece1c34f"
+    },
+    {
+      "file": "rnaseq_fpkm_20210329.csv",
+      "url": "https://cog.sanger.ac.uk/cmp/download/rnaseq_merged_Sanger_Broad_20210329.zip",
+      "archive_member": "rnaseq_fpkm_20210329.csv",
+      "archive_etag": "\"848ea49b3de86d1130764624689d56d5\"",
+      "archive_bytes": 866015937,
+      "zip_crc32_verified": true,
+      "bytes": 225538654,
+      "sha256": "1b6f0d777db5b1ffd76fb76fa0e49c52de7eff2ce49605d1693b6f7c037c81ae"
+    }
+  ]
+}

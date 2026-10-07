@@ -1,0 +1,16 @@
+# Sources and data definitions
+
+Accessed 2026-10-06. Exact downloaded bytes are identified by `metadata/source_receipt.json`.
+
+1. [Sanger GDSC project overview](https://www.sanger.ac.uk/tool/gdsc-genomics-drug-sensitivity-cancer/): the public resource combines cancer-cell-line drug screening and molecular profiles.
+2. [GDSC2 release 8.5 response workbook, 27 October 2023](https://cog.sanger.ac.uk/cancerrxgene/GDSC_release8.5/GDSC2_fitted_dose_response_27Oct23.xlsx). The workbook itself supplies drug ID/name/putative target, cell model IDs, assay concentration ranges, fitted response AUC, log IC50 and fit RMSE. Erlotinib is ID 1168; the recorded putative target is EGFR.
+3. [GDSC fitted-data dictionary](https://cog.sanger.ac.uk/cancerrxgene/GDSC_release8.5/GDSC_Fitted_Data_Description.pdf). Response AUC is a fraction of the total area over the screened concentration range. This is not ROC AUC. LN_IC50 is natural-log concentration, with micromolar values recovered by exponentiation. The source release excludes curves with fitting RMSE above 0.3. Our predictive RMSE is a separate quantity measuring prediction error across cell lines.
+4. [Merged Sanger/Broad RNA-seq archive, 29 March 2021](https://cog.sanger.ac.uk/cmp/download/rnaseq_merged_Sanger_Broad_20210329.zip). This analysis uses only `rnaseq_fpkm_20210329.csv`, retrieved by HTTP byte range and decompressed with ZIP CRC-32 verification. The full archive is not required. Source header includes model IDs, names and dataset labels before the gene rows. FPKM is transformed as log2(FPKM+1).
+5. [Cell Model Passports model list, 20 November 2024](https://cog.sanger.ac.uk/cmp/download/model_list_20241120.csv). Used for exact model ID joins, tissue labels and known donor/sample/parent relationships. Public donor IDs refer to research cell models; this is not an identified-patient dataset.
+6. [Sanger expression processing documentation](https://depmap.sanger.ac.uk/documentation/datasets/expression/). Current documentation explains merged Sanger/Broad expression and preference for Sanger where both institutes profile a model. Its newer TPM/RSEM description does not retroactively establish the processing of every 2021 FPKM value. This project uses the frozen, explicitly labeled FPKM member and acknowledges mixed-source processing.
+7. [scikit-learn common pitfalls](https://scikit-learn.org/stable/common_pitfalls.html) and [cross-validation](https://scikit-learn.org/stable/modules/cross_validation.html): train-only preprocessing, group separation, and evaluation on data unused for selection.
+
+Earlier CancerRxGene web downloads returned HTTP 410; the legacy FTP HTTPS host returned HTTP 403. Official `cog.sanger.ac.uk` files above were available. Versions are frozen for reproducibility and are not described as the latest releases. No third-party substitute expression dataset was used.
+
+## Reuse and attribution
+Credit the original Sanger/GDSC and Broad/CCLE data producers and consult their current reuse terms before redistribution. This package contains code and derived analysis outputs; bulk source datasets and fitted model binaries are excluded from the shareable ZIP. It does not assign a new license to source data.

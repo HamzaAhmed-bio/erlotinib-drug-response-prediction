@@ -1,0 +1,11 @@
+{
+  "selected_expression_model": "Random Forest",
+  "test_models": 141,
+  "test_groups": 141,
+  "bootstrap_replicates": 2000,
+  "convergence_warnings": 0,
+  "all_model_predictions_finite": true,
+  "elastic_net_nonzero_coefficients": 38,
+  "no_external_validation": true,
+  "model_fits_use_development_only": true
+}

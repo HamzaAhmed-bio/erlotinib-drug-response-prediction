@@ -1,0 +1,5 @@
+model,baseline,RMSE_difference,CI_low,CI_high,interpretation
+Elastic Net,Mean baseline,-0.01004389275744104,-0.013911503051589409,-0.0054781614292837505,negative favors expression model
+Elastic Net,Tissue-only ridge,-0.005640688335614874,-0.008895802849669643,-0.002113611626542373,negative favors expression model
+Random Forest,Mean baseline,-0.012431623280654232,-0.01723180545291277,-0.007244400275328569,negative favors expression model
+Random Forest,Tissue-only ridge,-0.008028418858828067,-0.011886241219488877,-0.003944886791854441,negative favors expression model

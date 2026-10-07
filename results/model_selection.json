@@ -1,0 +1,21 @@
+{
+  "selected_expression_model": "Random Forest",
+  "parameters": {
+    "Mean baseline": {},
+    "Tissue-only ridge": {
+      "alpha": 10
+    },
+    "Elastic Net": {
+      "alpha": 0.03,
+      "l1_ratio": 0.1
+    },
+    "Random Forest": {
+      "max_features": 0.5,
+      "min_samples_leaf": 5
+    }
+  },
+  "criterion": "lowest mean development 5-fold grouped CV RMSE",
+  "selected_utc": "2026-10-06T05:45:32.757918+00:00",
+  "split_sha256": "02fe0e55bdaa65970d9221251cf09eccba9dd80bb563b40470cde1b45f7e03df",
+  "test_results_used_for_selection": false
+}

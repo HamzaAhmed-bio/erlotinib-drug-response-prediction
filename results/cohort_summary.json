@@ -1,0 +1,20 @@
+{
+  "drug": "Erlotinib",
+  "drug_id": 1168,
+  "source_responses": 955,
+  "uniform_window_responses": 705,
+  "eligible_models": 701,
+  "development_models": 560,
+  "test_models": 141,
+  "groups": 701,
+  "genes": 37263,
+  "expression_missing_values": 0,
+  "tissues": 26,
+  "split_sha256": "02fe0e55bdaa65970d9221251cf09eccba9dd80bb563b40470cde1b45f7e03df",
+  "input_exclusions": {
+    "other_concentration_window": 250,
+    "same_window_without_expression": 4,
+    "same_window_invalid_response": 0,
+    "same_window_metadata_unmatched": 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "notebook": "executed top-to-bottom; 7 code cells; no errors",
+  "embedded_figures": 5,
+  "html": "static offline export; local links and embedded images checked",
+  "visual_inspection": "all five exported figures inspected for readable labels, units and clipping",
+  "html_browser_preview": "not performed: browser security policy blocks file URLs",
+  "external_validation": "not performed; internal held-out benchmark only"
+}
